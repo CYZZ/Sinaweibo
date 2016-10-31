@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import QorumLogs
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,7 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
+//        BLLog(123456)
+//        BLLog(QL1(123456))
         // 1. 创建Widow
         window = UIWindow(frame: UIScreen.main.bounds);
         window?.backgroundColor = UIColor.white;
@@ -26,7 +27,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // 3. 显示window
         window?.makeKeyAndVisible();
-        
         return true
     }
     
@@ -52,6 +52,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
 }
+// 在
+
+/// 自定义Log,在DEBUG状态下才有打印输出,发布隐藏
+///
+/// - parameter message:    输出信息
+/// - parameter fileName:   文件名
+/// - parameter methodName: 方法名
+/// - parameter lineName:   行号
+func BLLog<T>(_ message:T,fileName:String = #file, methodName:String = #function, lineName:Int = #line)
+{
+    
+    #if DEBUG
+        let className = (fileName as NSString).pathComponents.last!.components(separatedBy: ".")[0]
+        print("\(className)->\(methodName)[\(lineName)] \(message)")
+    #endif
+    
+}
+
+
 
