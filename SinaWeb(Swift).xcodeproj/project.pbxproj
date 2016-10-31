@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		657837971DC4593200B8C5D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657837961DC4593200B8C5D8 /* AppDelegate.swift */; };
+		6578379E1DC4593200B8C5D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6578379D1DC4593200B8C5D8 /* Assets.xcassets */; };
+		657837AC1DC4593300B8C5D8 /* SinaWeb_Swift_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657837AB1DC4593300B8C5D8 /* SinaWeb_Swift_Tests.swift */; };
+		657837B71DC4593300B8C5D8 /* SinaWeb_Swift_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657837B61DC4593300B8C5D8 /* SinaWeb_Swift_UITests.swift */; };
+		657837CD1DC4900C00B8C5D8 /* ComposeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657837CC1DC4900C00B8C5D8 /* ComposeVC.swift */; };
+		657837CF1DC4902B00B8C5D8 /* DiscoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657837CE1DC4902B00B8C5D8 /* DiscoverVC.swift */; };
+		657837D11DC4904000B8C5D8 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657837D01DC4904000B8C5D8 /* HomeVC.swift */; };
+		657837D31DC4904F00B8C5D8 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657837D21DC4904F00B8C5D8 /* MainVC.swift */; };
+		657837D51DC4906A00B8C5D8 /* MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657837D41DC4906A00B8C5D8 /* MessageVC.swift */; };
+		657837D71DC4907B00B8C5D8 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657837D61DC4907B00B8C5D8 /* ProfileVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		657837A81DC4593300B8C5D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6578378B1DC4593200B8C5D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 657837921DC4593200B8C5D8;
+			remoteInfo = "SinaWeb(Swift)";
+		};
+		657837B31DC4593300B8C5D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6578378B1DC4593200B8C5D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 657837921DC4593200B8C5D8;
+			remoteInfo = "SinaWeb(Swift)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		657837931DC4593200B8C5D8 /* 新浪微博.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新浪微博.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		657837961DC4593200B8C5D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6578379D1DC4593200B8C5D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		657837A21DC4593200B8C5D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		657837A71DC4593300B8C5D8 /* SinaWeb(Swift)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SinaWeb(Swift)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		657837AB1DC4593300B8C5D8 /* SinaWeb_Swift_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinaWeb_Swift_Tests.swift; sourceTree = "<group>"; };
+		657837AD1DC4593300B8C5D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		657837B21DC4593300B8C5D8 /* SinaWeb(Swift)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SinaWeb(Swift)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		657837B61DC4593300B8C5D8 /* SinaWeb_Swift_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinaWeb_Swift_UITests.swift; sourceTree = "<group>"; };
+		657837B81DC4593300B8C5D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		657837CC1DC4900C00B8C5D8 /* ComposeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeVC.swift; sourceTree = "<group>"; };
+		657837CE1DC4902B00B8C5D8 /* DiscoverVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverVC.swift; sourceTree = "<group>"; };
+		657837D01DC4904000B8C5D8 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		657837D21DC4904F00B8C5D8 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		657837D41DC4906A00B8C5D8 /* MessageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageVC.swift; sourceTree = "<group>"; };
+		657837D61DC4907B00B8C5D8 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		657837901DC4593200B8C5D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657837A41DC4593300B8C5D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657837AF1DC4593300B8C5D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6578378A1DC4593200B8C5D8 = {
+			isa = PBXGroup;
+			children = (
+				657837951DC4593200B8C5D8 /* SinaWeb(Swift) */,
+				657837AA1DC4593300B8C5D8 /* SinaWeb(Swift)Tests */,
+				657837B51DC4593300B8C5D8 /* SinaWeb(Swift)UITests */,
+				657837941DC4593200B8C5D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		657837941DC4593200B8C5D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				657837931DC4593200B8C5D8 /* 新浪微博.app */,
+				657837A71DC4593300B8C5D8 /* SinaWeb(Swift)Tests.xctest */,
+				657837B21DC4593300B8C5D8 /* SinaWeb(Swift)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		657837951DC4593200B8C5D8 /* SinaWeb(Swift) */ = {
+			isa = PBXGroup;
+			children = (
+				657837C41DC48FD800B8C5D8 /* Classes */,
+				657837961DC4593200B8C5D8 /* AppDelegate.swift */,
+				6578379D1DC4593200B8C5D8 /* Assets.xcassets */,
+				657837A21DC4593200B8C5D8 /* Info.plist */,
+			);
+			path = "SinaWeb(Swift)";
+			sourceTree = "<group>";
+		};
+		657837AA1DC4593300B8C5D8 /* SinaWeb(Swift)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				657837AB1DC4593300B8C5D8 /* SinaWeb_Swift_Tests.swift */,
+				657837AD1DC4593300B8C5D8 /* Info.plist */,
+			);
+			path = "SinaWeb(Swift)Tests";
+			sourceTree = "<group>";
+		};
+		657837B51DC4593300B8C5D8 /* SinaWeb(Swift)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				657837B61DC4593300B8C5D8 /* SinaWeb_Swift_UITests.swift */,
+				657837B81DC4593300B8C5D8 /* Info.plist */,
+			);
+			path = "SinaWeb(Swift)UITests";
+			sourceTree = "<group>";
+		};
+		657837C41DC48FD800B8C5D8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				657837C81DC48FD800B8C5D8 /* Main */,
+				657837C51DC48FD800B8C5D8 /* Compose */,
+				657837C61DC48FD800B8C5D8 /* Discover */,
+				657837C71DC48FD800B8C5D8 /* Home */,
+				657837C91DC48FD800B8C5D8 /* Message */,
+				657837CA1DC48FD800B8C5D8 /* Profile */,
+				657837CB1DC48FD800B8C5D8 /* Tool */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		657837C51DC48FD800B8C5D8 /* Compose */ = {
+			isa = PBXGroup;
+			children = (
+				657837CC1DC4900C00B8C5D8 /* ComposeVC.swift */,
+			);
+			path = Compose;
+			sourceTree = "<group>";
+		};
+		657837C61DC48FD800B8C5D8 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				657837CE1DC4902B00B8C5D8 /* DiscoverVC.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		657837C71DC48FD800B8C5D8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				657837D01DC4904000B8C5D8 /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		657837C81DC48FD800B8C5D8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				657837D21DC4904F00B8C5D8 /* MainVC.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		657837C91DC48FD800B8C5D8 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				657837D41DC4906A00B8C5D8 /* MessageVC.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		657837CA1DC48FD800B8C5D8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				657837D61DC4907B00B8C5D8 /* ProfileVC.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		657837CB1DC48FD800B8C5D8 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		657837921DC4593200B8C5D8 /* SinaWeb(Swift) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657837BB1DC4593300B8C5D8 /* Build configuration list for PBXNativeTarget "SinaWeb(Swift)" */;
+			buildPhases = (
+				6578378F1DC4593200B8C5D8 /* Sources */,
+				657837901DC4593200B8C5D8 /* Frameworks */,
+				657837911DC4593200B8C5D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SinaWeb(Swift)";
+			productName = "SinaWeb(Swift)";
+			productReference = 657837931DC4593200B8C5D8 /* 新浪微博.app */;
+			productType = "com.apple.product-type.application";
+		};
+		657837A61DC4593300B8C5D8 /* SinaWeb(Swift)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657837BE1DC4593300B8C5D8 /* Build configuration list for PBXNativeTarget "SinaWeb(Swift)Tests" */;
+			buildPhases = (
+				657837A31DC4593300B8C5D8 /* Sources */,
+				657837A41DC4593300B8C5D8 /* Frameworks */,
+				657837A51DC4593300B8C5D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				657837A91DC4593300B8C5D8 /* PBXTargetDependency */,
+			);
+			name = "SinaWeb(Swift)Tests";
+			productName = "SinaWeb(Swift)Tests";
+			productReference = 657837A71DC4593300B8C5D8 /* SinaWeb(Swift)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		657837B11DC4593300B8C5D8 /* SinaWeb(Swift)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657837C11DC4593300B8C5D8 /* Build configuration list for PBXNativeTarget "SinaWeb(Swift)UITests" */;
+			buildPhases = (
+				657837AE1DC4593300B8C5D8 /* Sources */,
+				657837AF1DC4593300B8C5D8 /* Frameworks */,
+				657837B01DC4593300B8C5D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				657837B41DC4593300B8C5D8 /* PBXTargetDependency */,
+			);
+			name = "SinaWeb(Swift)UITests";
+			productName = "SinaWeb(Swift)UITests";
+			productReference = 657837B21DC4593300B8C5D8 /* SinaWeb(Swift)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6578378B1DC4593200B8C5D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = yuze;
+				TargetAttributes = {
+					657837921DC4593200B8C5D8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 784CA86VY9;
+						ProvisioningStyle = Automatic;
+					};
+					657837A61DC4593300B8C5D8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 784CA86VY9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 657837921DC4593200B8C5D8;
+					};
+					657837B11DC4593300B8C5D8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 784CA86VY9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 657837921DC4593200B8C5D8;
+					};
+				};
+			};
+			buildConfigurationList = 6578378E1DC4593200B8C5D8 /* Build configuration list for PBXProject "SinaWeb(Swift)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6578378A1DC4593200B8C5D8;
+			productRefGroup = 657837941DC4593200B8C5D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				657837921DC4593200B8C5D8 /* SinaWeb(Swift) */,
+				657837A61DC4593300B8C5D8 /* SinaWeb(Swift)Tests */,
+				657837B11DC4593300B8C5D8 /* SinaWeb(Swift)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		657837911DC4593200B8C5D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6578379E1DC4593200B8C5D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657837A51DC4593300B8C5D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657837B01DC4593300B8C5D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6578378F1DC4593200B8C5D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657837971DC4593200B8C5D8 /* AppDelegate.swift in Sources */,
+				657837D31DC4904F00B8C5D8 /* MainVC.swift in Sources */,
+				657837D71DC4907B00B8C5D8 /* ProfileVC.swift in Sources */,
+				657837D11DC4904000B8C5D8 /* HomeVC.swift in Sources */,
+				657837CD1DC4900C00B8C5D8 /* ComposeVC.swift in Sources */,
+				657837D51DC4906A00B8C5D8 /* MessageVC.swift in Sources */,
+				657837CF1DC4902B00B8C5D8 /* DiscoverVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657837A31DC4593300B8C5D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657837AC1DC4593300B8C5D8 /* SinaWeb_Swift_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657837AE1DC4593300B8C5D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657837B71DC4593300B8C5D8 /* SinaWeb_Swift_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		657837A91DC4593300B8C5D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 657837921DC4593200B8C5D8 /* SinaWeb(Swift) */;
+			targetProxy = 657837A81DC4593300B8C5D8 /* PBXContainerItemProxy */;
+		};
+		657837B41DC4593300B8C5D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 657837921DC4593200B8C5D8 /* SinaWeb(Swift) */;
+			targetProxy = 657837B31DC4593300B8C5D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		657837B91DC4593300B8C5D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		657837BA1DC4593300B8C5D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		657837BC1DC4593300B8C5D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 784CA86VY9;
+				INFOPLIST_FILE = "SinaWeb(Swift)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bailitop.SinaWeb-Swift-";
+				PRODUCT_NAME = "新浪微博";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		657837BD1DC4593300B8C5D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 784CA86VY9;
+				INFOPLIST_FILE = "SinaWeb(Swift)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bailitop.SinaWeb-Swift-";
+				PRODUCT_NAME = "新浪微博";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		657837BF1DC4593300B8C5D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 784CA86VY9;
+				INFOPLIST_FILE = "SinaWeb(Swift)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bailitop.SinaWeb-Swift-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinaWeb(Swift).app/SinaWeb(Swift)";
+			};
+			name = Debug;
+		};
+		657837C01DC4593300B8C5D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 784CA86VY9;
+				INFOPLIST_FILE = "SinaWeb(Swift)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bailitop.SinaWeb-Swift-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinaWeb(Swift).app/SinaWeb(Swift)";
+			};
+			name = Release;
+		};
+		657837C21DC4593300B8C5D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 784CA86VY9;
+				INFOPLIST_FILE = "SinaWeb(Swift)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bailitop.SinaWeb-Swift-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "SinaWeb(Swift)";
+			};
+			name = Debug;
+		};
+		657837C31DC4593300B8C5D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 784CA86VY9;
+				INFOPLIST_FILE = "SinaWeb(Swift)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bailitop.SinaWeb-Swift-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "SinaWeb(Swift)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6578378E1DC4593200B8C5D8 /* Build configuration list for PBXProject "SinaWeb(Swift)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657837B91DC4593300B8C5D8 /* Debug */,
+				657837BA1DC4593300B8C5D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657837BB1DC4593300B8C5D8 /* Build configuration list for PBXNativeTarget "SinaWeb(Swift)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657837BC1DC4593300B8C5D8 /* Debug */,
+				657837BD1DC4593300B8C5D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		657837BE1DC4593300B8C5D8 /* Build configuration list for PBXNativeTarget "SinaWeb(Swift)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657837BF1DC4593300B8C5D8 /* Debug */,
+				657837C01DC4593300B8C5D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		657837C11DC4593300B8C5D8 /* Build configuration list for PBXNativeTarget "SinaWeb(Swift)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657837C21DC4593300B8C5D8 /* Debug */,
+				657837C31DC4593300B8C5D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6578378B1DC4593200B8C5D8 /* Project object */;
+}
