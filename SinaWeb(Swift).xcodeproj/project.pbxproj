@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		656C70301DC748490067A8C1 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 656C702E1DC748490067A8C1 /* MainVCSettings.json */; };
-		656C70311DC748490067A8C1 /* NullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C702F1DC748490067A8C1 /* NullViewController.swift */; };
+		656C70331DC7546D0067A8C1 /* NULLVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C70321DC7546D0067A8C1 /* NULLVC.swift */; };
 		657837971DC4593200B8C5D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657837961DC4593200B8C5D8 /* AppDelegate.swift */; };
 		6578379E1DC4593200B8C5D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6578379D1DC4593200B8C5D8 /* Assets.xcassets */; };
 		657837AC1DC4593300B8C5D8 /* SinaWeb_Swift_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657837AB1DC4593300B8C5D8 /* SinaWeb_Swift_Tests.swift */; };
@@ -41,7 +41,7 @@
 
 /* Begin PBXFileReference section */
 		656C702E1DC748490067A8C1 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
-		656C702F1DC748490067A8C1 /* NullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NullViewController.swift; sourceTree = "<group>"; };
+		656C70321DC7546D0067A8C1 /* NULLVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NULLVC.swift; sourceTree = "<group>"; };
 		657837931DC4593200B8C5D8 /* 新浪微博.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新浪微博.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		657837961DC4593200B8C5D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6578379D1DC4593200B8C5D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				656C702E1DC748490067A8C1 /* MainVCSettings.json */,
-				656C702F1DC748490067A8C1 /* NullViewController.swift */,
+				656C70321DC7546D0067A8C1 /* NULLVC.swift */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -426,9 +426,9 @@
 				657837971DC4593200B8C5D8 /* AppDelegate.swift in Sources */,
 				657837D31DC4904F00B8C5D8 /* MainVC.swift in Sources */,
 				657837D71DC4907B00B8C5D8 /* ProfileVC.swift in Sources */,
+				656C70331DC7546D0067A8C1 /* NULLVC.swift in Sources */,
 				657837D11DC4904000B8C5D8 /* HomeVC.swift in Sources */,
 				657837CD1DC4900C00B8C5D8 /* ComposeVC.swift in Sources */,
-				656C70311DC748490067A8C1 /* NullViewController.swift in Sources */,
 				657837D51DC4906A00B8C5D8 /* MessageVC.swift in Sources */,
 				657837CF1DC4902B00B8C5D8 /* DiscoverVC.swift in Sources */,
 			);
@@ -513,6 +513,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -555,6 +556,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

@@ -21,6 +21,25 @@ class MainVC: UITabBarController {
         VC.tabBarItem.title = "首页"
         
         // Do any additional setup after loading the view.
+        
+        testClosure() // 调用方法
+    }
+    
+    private func testClosure() {
+        // 1. 没有参数没有返回值的写法
+        let say:() -> Void = {
+            () -> () in // 当没有参数没有返回值的时候这行可以省略
+            BLLog("没有返回值的闭包")
+        }
+        say()
+        
+        // 2. 有参数没有返回值的闭包
+        let say2:((Int) -> Void) = {
+            (a) -> () in
+            BLLog("a=\(a)")
+        }
+        say2(3)
+        
     }
     
     // Swift中支持方法的重载，方法名允许相同，参数名不同
