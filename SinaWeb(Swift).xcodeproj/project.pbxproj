@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		656C70301DC748490067A8C1 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 656C702E1DC748490067A8C1 /* MainVCSettings.json */; };
 		656C70331DC7546D0067A8C1 /* NULLVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C70321DC7546D0067A8C1 /* NULLVC.swift */; };
+		656ED8C51DC9E4440098DB3E /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656ED8C41DC9E4440098DB3E /* UIButton+Extension.swift */; };
+		656ED8C71DC9ECEC0098DB3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656ED8C61DC9ECEC0098DB3E /* Main.storyboard */; };
 		657837971DC4593200B8C5D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657837961DC4593200B8C5D8 /* AppDelegate.swift */; };
 		6578379E1DC4593200B8C5D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6578379D1DC4593200B8C5D8 /* Assets.xcassets */; };
 		657837AC1DC4593300B8C5D8 /* SinaWeb_Swift_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657837AB1DC4593300B8C5D8 /* SinaWeb_Swift_Tests.swift */; };
@@ -42,6 +44,8 @@
 /* Begin PBXFileReference section */
 		656C702E1DC748490067A8C1 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
 		656C70321DC7546D0067A8C1 /* NULLVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NULLVC.swift; sourceTree = "<group>"; };
+		656ED8C41DC9E4440098DB3E /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		656ED8C61DC9ECEC0098DB3E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		657837931DC4593200B8C5D8 /* 新浪微博.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新浪微博.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		657837961DC4593200B8C5D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6578379D1DC4593200B8C5D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -200,6 +204,7 @@
 			children = (
 				656C702D1DC748480067A8C1 /* Resource */,
 				657837D21DC4904F00B8C5D8 /* MainVC.swift */,
+				656ED8C61DC9ECEC0098DB3E /* Main.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -223,6 +228,7 @@
 		657837CB1DC48FD800B8C5D8 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				656ED8C41DC9E4440098DB3E /* UIButton+Extension.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -349,6 +355,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656ED8C71DC9ECEC0098DB3E /* Main.storyboard in Resources */,
 				656C70301DC748490067A8C1 /* MainVCSettings.json in Resources */,
 				6578379E1DC4593200B8C5D8 /* Assets.xcassets in Resources */,
 			);
@@ -428,6 +435,7 @@
 				657837D71DC4907B00B8C5D8 /* ProfileVC.swift in Sources */,
 				656C70331DC7546D0067A8C1 /* NULLVC.swift in Sources */,
 				657837D11DC4904000B8C5D8 /* HomeVC.swift in Sources */,
+				656ED8C51DC9E4440098DB3E /* UIButton+Extension.swift in Sources */,
 				657837CD1DC4900C00B8C5D8 /* ComposeVC.swift in Sources */,
 				657837D51DC4906A00B8C5D8 /* MessageVC.swift in Sources */,
 				657837CF1DC4902B00B8C5D8 /* DiscoverVC.swift in Sources */,
